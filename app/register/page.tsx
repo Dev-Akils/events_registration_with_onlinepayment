@@ -125,12 +125,12 @@ export default function RegisterPage() {
       <div className="relative mx-auto max-w-md">
         <Link href="/" className="text-sm font-bold uppercase tracking-wider text-white/80 hover:text-white">← Back</Link>
 
-        <h1 className={`${D} mt-2 text-6xl uppercase leading-[0.5] text-white/90 md:text-7xl`}>
+        <h1 className={`${D} mt-2 text-6xl uppercase leading-[0.9] md:leading-[0.5] text-white/90 md:text-7xl`}>
           Get your<br />ticket
         </h1>
         <p className={`${H} mt-2 -rotate-2 text-3xl text-white`}>no cap, it takes 1 minute</p>
 
-        <form onSubmit={onSubmit} className="mt-2.5 rotate-[0.6deg] space-y-4 bg-[#ecebe8] p-6 text-[#0b0b0b] shadow-2xl">
+        <form onSubmit={onSubmit} className="mt-5 md:mt-2.5 rotate-[0.6deg] space-y-4 bg-[#ecebe8] p-6 text-[#0b0b0b] shadow-2xl">
           <label className={label}>Full name
             <input name="name" required minLength={2} placeholder="Your name" className={input} />
           </label>
